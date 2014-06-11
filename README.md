@@ -3,4 +3,4 @@ week1
 
 Week 1 Homework
 -8hrs to complete
-![ScreenShot](https://raw.githubusercontent.com/i-saumitra/Voice-controlled-MP3-Player/master/screenshot.jpg)
+![ScreenShot](https://raw.githubusercontent.com/jasonchua/week1/blob/master/Week1.gif)
