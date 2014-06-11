@@ -19,6 +19,8 @@
 		96A4BC4F1940311A00A45153 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 96A4BC371940311A00A45153 /* UIKit.framework */; };
 		96A4BC571940311A00A45153 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 96A4BC551940311A00A45153 /* InfoPlist.strings */; };
 		96A4BC591940311A00A45153 /* Week1Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 96A4BC581940311A00A45153 /* Week1Tests.m */; };
+		96A4BC65194031F900A45153 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 96A4BC63194031F900A45153 /* ViewController.m */; };
+		96A4BC66194031F900A45153 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 96A4BC64194031F900A45153 /* ViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +50,9 @@
 		96A4BC541940311A00A45153 /* Week1Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Week1Tests-Info.plist"; sourceTree = "<group>"; };
 		96A4BC561940311A00A45153 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		96A4BC581940311A00A45153 /* Week1Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Week1Tests.m; sourceTree = "<group>"; };
+		96A4BC62194031F900A45153 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		96A4BC63194031F900A45153 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		96A4BC64194031F900A45153 /* ViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +114,9 @@
 			children = (
 				96A4BC421940311A00A45153 /* AppDelegate.h */,
 				96A4BC431940311A00A45153 /* AppDelegate.m */,
+				96A4BC62194031F900A45153 /* ViewController.h */,
+				96A4BC63194031F900A45153 /* ViewController.m */,
+				96A4BC64194031F900A45153 /* ViewController.xib */,
 				96A4BC451940311A00A45153 /* Images.xcassets */,
 				96A4BC3A1940311A00A45153 /* Supporting Files */,
 			);
@@ -220,6 +228,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				96A4BC3E1940311A00A45153 /* InfoPlist.strings in Resources */,
+				96A4BC66194031F900A45153 /* ViewController.xib in Resources */,
 				96A4BC461940311A00A45153 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -239,6 +248,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				96A4BC65194031F900A45153 /* ViewController.m in Sources */,
 				96A4BC441940311A00A45153 /* AppDelegate.m in Sources */,
 				96A4BC401940311A00A45153 /* main.m in Sources */,
 			);
